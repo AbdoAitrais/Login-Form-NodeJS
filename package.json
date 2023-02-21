@@ -1,0 +1,33 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "this is a login form",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdoAitrais/Login-Form-NodeJS.git"
+  },
+  "keywords": [
+    "['login'",
+    "'form']"
+  ],
+  "author": "AbdoAitrais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdoAitrais/Login-Form-NodeJS/issues"
+  },
+  "homepage": "https://github.com/AbdoAitrais/Login-Form-NodeJS#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
