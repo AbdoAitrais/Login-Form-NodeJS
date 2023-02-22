@@ -35,5 +35,9 @@ router.get('/incorrectBack', function(req, res) {
   res.redirect('/');
 });
 
+router.get('*', function(req, res) {
+  res.sendFile(__dirname + '/form/unavailable.html');
+});
+
 //export this router to use in our index.js
 module.exports = router;
